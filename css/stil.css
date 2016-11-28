@@ -1,0 +1,51 @@
+/*
+	Document	: stil.css - Dental Center
+	Author		: Ömer Çıtak - www.omercitak.net
+	Create		: 11.02.2014
+*/
+
+.temiz{clear:both;}
+
+body{background:url('../images/bg.png') no-repeat center top #f4f9fc; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+
+#sayfa{width:938px; height:auto; margin:0 auto;}
+
+header{position:relative; z-index:2; width:938px; height:116px; background:#fff; border-bottom-left-radius:10px; border-bottom-right-radius:10px;}
+header .logo{float:left; width:250px; height:116px; text-align:center;}
+header .logo img{width:177px; height:82px; margin:17px 0;}
+header .aracizgi{float:left; width:2px; height:84px; background:#ededed; margin:16px 0;}
+header .ustyazi{float:left; width:686px; height:70px; line-height:35px; margin:23px 0; text-align:center; color:#434a54; font-family:Myriad Pro; font-weight:300; font-size:32px;}
+
+#slider {position:relative; z-index:1; width:938px; height:315px; margin:-26px 0 0 0; background:url('../images/slider.png');}
+#slider .login{float:right; width:230px; height:260px; margin:10px 108px 0 0; border:solid 4px #fff; border-radius:5px;}
+#slider .login .satir1{width:210px; padding:0 10px; height:50px; line-height:50px; color:#434a54; font-family:Myriad Pro; font-style:italic; font-size:28px;}
+#slider .login .satir2{width:210px; padding:0 10px; height:20px; line-height:20px; color:#aab2bd; font-family:Myriad Pro; font-size:15px;}
+#slider .login input{width:200px; height:50px; margin:10px; padding:0 5px; border:none; border-radius:10px;}
+#slider .login input[type=submit]{float:right; width:95px; height:35px; margin:3px 10px; padding:0; border:none; border-radius:5px; color:#fff; background:#434a54; font-family:Myriad Pro; font-size:20px; cursor:pointer;}
+
+#ortayazi {width:938px; height:50px; line-height:50px; margin:5px 0; text-align:center; color:#7790c6; font-family:Myriad Pro; font-style:italic; font-size:40px;}
+#ortayazi span{color:#fecc00;}
+
+#paketler {width:938px; height:331px; margin:5px 0;}
+#paketler .paket1{position:relative; float:left; width:305px; height:325px; margin:0 11px 0 0; border-bottom:solid 6px #e3e4e8; background:#fff;}
+#paketler .paket1:last-child{margin:0;}
+#paketler .paket1 .fiyat{position:absolute; z-index:2; width:70px; height:70px; line-height:70px; left:117px; top:48px; border-radius:35px; color:#fff; background:#feb100; font-family:Myriad Pro; font-style:italic; font-size:15px; text-align:center;}
+#paketler .paket1 .fiyat span{font-size:30px; font-style:normal;}
+#paketler .paket1 .baslik{position:relative; z-index:1; width:305px; height:83px; line-height:55px; color:#fff; background:#fecc00; border-bottom:solid 6px #feb100; border-top-left-radius:10px; border-top-right-radius:10px; text-align:center; font-family:Myriad Pro; font-size:24px; font-weight:600;}
+#paketler .paket1 .icerik{position:relative; z-index:1; width:305px; height:200px; line-height:34px; padding:35px 0 0 0; font-family:Arial; font-size:14px; text-align:center; color:#434a54;}
+#paketler .paket1 .icerik span{font-weight:900;}
+#paketler .paket1 .icerik a{background:#434a54; margin:15px 0; padding:12px 30px; color:#fff; text-decoration:none; border-radius:5px;}
+#paketler .paket1 .icerik a:hover{background:#000; box-shadow:-3px 3px 10px #000;}
+#paketler .paket2{position:relative; float:left; width:305px; height:325px; margin:0 12px 0 0; border-bottom:solid 6px #e3e4e8; background:#fff;}
+#paketler .paket2:last-child{margin:0;}
+#paketler .paket2 .fiyat{position:absolute; z-index:2; width:70px; height:70px; line-height:70px; left:117px; top:48px; border-radius:35px; color:#fff; background:#91adea; font-family:Myriad Pro; font-style:italic; font-size:15px; text-align:center;}
+#paketler .paket2 .fiyat span{font-size:30px; font-style:normal;}
+#paketler .paket2 .baslik{position:relative; z-index:1; width:305px; height:83px; line-height:55px; color:#fff; background:#5d7bbb; border-bottom:solid 6px #91adea; border-top-left-radius:10px; border-top-right-radius:10px; text-align:center; font-family:Myriad Pro; font-size:24px; font-weight:600;}
+#paketler .paket2 .icerik{position:relative; z-index:1; width:305px; height:200px; line-height:34px; padding:35px 0 0 0; font-family:Arial; font-size:14px; text-align:center; color:#434a54;}
+#paketler .paket2 .icerik span{font-weight:900;}
+#paketler .paket2 .icerik a{background:#434a54; margin:15px 0; padding:12px 30px; color:#fff; text-decoration:none; border-radius:5px;}
+#paketler .paket2 .icerik a:hover{background:#000; box-shadow:-3px 3px 10px #000;}
+
+footer{width:930px; height:55px; line-height:55px; padding:0 4px; background:#fff; color:#adadad; font-family:Segoe UI; font-size: 71%;}
+footer span{color:#5d7bbb;}
+footer a{color:#feb100; text-decoration:none;}

@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fly Fiber Hotspot &gt; Giriş</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Ömer Çıtak, www.ömer.net" />
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/stil.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/cufon-yui.js"></script>
+		<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+		<script type="text/javascript" src="js/Myriad_Pro_italic_300.font.js"></script>
+		<script type="text/javascript" src="js/om3r.js"></script>
+	</head>
+	<body>
+	$(if chap-id)
+		<form name="sendin" action="$(link-login-only)" method="post">
+			<input type="hidden" name="username" />
+			<input type="hidden" name="password" />
+			<input type="hidden" name="dst" value="http://www.flyfiber.com.tr"/>
+			<input type="hidden" name="popup" value="true" />
+		</form>
+		<script type="text/javascript" src="/md5.js"></script>
+		<script type="text/javascript">
+		<!--
+			function doLogin() {
+			document.sendin.username.value = document.login.username.value;
+			document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+			document.sendin.submit();
+			return false;
+			}
+		//-->
+		</script>
+	$(endif)
+		<div id="sayfa">
+		
+			<header>
+				<div class="logo">
+					<a href="index.html">
+						<img src="images/logo.png" alt="" />
+					</a>
+				</div>
+				<div class="aracizgi"></div>
+				<div class="ustyazi">
+					Fly Fiber <span>üyeliğinizle tüm</span> FLY FiBER POP<br /> 
+					<span>Noktalarından giriş yapabilirsiniz.</span>
+				</div>
+			</header>
+			
+			<div id="slider">
+				<div class="login">
+					<form name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif)>
+						<input type="hidden" name="dst" value="http://www.flyfiber.com.tr"/>
+						<input type="hidden" name="popup" value="true" />
+						<div class="satir1">Giriş yap;</div>
+						<div class="satir2">Giriş bilgilerinizi yazın</div>
+						<input type="text" name="username" value="$(username)" placeholder="musterino" />
+						<input type="password" name="password" placeholder="*********" />
+						<input type="submit" value="Giriş" />
+					</form>
+				</div>
+			</div>
+			
+			<br />$(if error)
+			<br />$(error)
+			<br />$(endif)	
+			
+			<div id="ortayazi">
+				Fly Fiber <span>hızında</span> internet’e Hoşgeldiniz!
+			</div>
+			
+			<div id="paketler">
+				<div class="paket1">
+					<div class="fiyat"><span>39</span>TL</div>
+					<div class="baslik">LİMİTSİZ 4MBPS</div>
+					<div class="icerik">
+						<span>4 Mbps'</span>e kadar<br />
+						Limitsiz<br />
+						<span>25 GB </span>Hız Alanı<br />
+						Ücret Aşımı <span>YOK!</span>
+                        <br>
+                        Taahhüt Yok <span>YOK!</span>
+					    <div class="temiz" style="height:10px;"></div>
+						<a href="http://panel.flyfiber.com.tr/index.php/welcome/createAccount">HEMEN AL</a>
+					</div>
+				</div>
+				<div class="paket2">
+					<div class="fiyat"><span>49</span>TL</div>
+					<div class="baslik">LİMİTSİZ 8MBPS</div>
+					<div class="icerik">
+						<span>8 Mbps'</span>e kadar<br />
+						Limitsiz<br />
+						<span>50 GB </span>Hız Alanı<br />
+						Ücret Aşımı <span>YOK!</span>
+                        <br>
+                        Taahhüt Yok <span>YOK!</span>
+						<div class="temiz" style="height:10px;"></div>
+						<a href="http://panel.flyfiber.com.tr/index.php/welcome/createAccount">HEMEN AL</a>
+					</div>
+				</div>
+				<div class="paket1">
+					<div class="fiyat"><span>69</span>TL</div>
+					<div class="baslik">LİMİTSİZ 16MBPS</div>
+					<div class="icerik">
+						<span>16 Mbps'</span>e kadar<br />
+						Limitsiz<br />
+						<span>75 GB </span>Hız Alanı<br />
+						Ücret Aşımı <span>YOK!</span>
+                        <br>
+                        Taahhüt Yok <span>YOK!</span>
+						<div class="temiz" style="height:10px;"></div>
+						<a href="http://panel.flyfiber.com.tr/index.php/welcome/createAccount">HEMEN AL</a>
+					</div>
+				</div>
+			</div>
+			
+			<footer>
+				2014 - Tüm hakları saklıdır. Fly Fiber İletişim Hizmetleri San. ve Tic. Ltd. Şti.  Bilgi Teknolojileri Kurumu (BTK) tarafından yetkilendirilmiş şirkettir.  |  <span>0850 811 08 09</span> - <a href="mailto:iletisim@flyfiber.com.tr">iletisim@flyfiber.com.tr</a>
+			</footer>
+			
+		</div>
+	</body>
+</html>
